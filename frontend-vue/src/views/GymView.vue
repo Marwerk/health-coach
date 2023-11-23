@@ -27,7 +27,7 @@ export default {
     </div>
     <ul v-else>
       <li v-for="gym in gyms" :key="gym.id">
-        {{ gym.attributes.name }}
+        {{ gym.attributes.Name }}
       </li>
     </ul>
   </div>
