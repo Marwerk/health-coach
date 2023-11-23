@@ -12,7 +12,7 @@ A hosted production version is available at [ link to domain ]
 
 ## Setting up for local development
 
-To start the Strapi backend application, while in the "backend-strapi" folder, run the command:
+To start the Strapi [ link to Strapi docs ] backend application, while in the "backend-strapi" folder, run the command:
 
 ```bash
 npm run develop
