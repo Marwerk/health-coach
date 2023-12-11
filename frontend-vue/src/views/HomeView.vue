@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <header class="primary-header">
+    <div class="container"></div>
+  </header>
 </template>
