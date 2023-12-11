@@ -12,7 +12,13 @@ A hosted production version is available at [ link to domain ]
 
 ## Setting up for local development
 
-The backend API will be available at [ address ] and the frontend at [ address ].
+To start the Strapi [ link to Strapi docs ] backend application, while in the "backend-strapi" folder, run the command:
+
+```bash
+npm run develop
+```
+
+The backend API will be available at http://localhost:1337 and the frontend at [ address ].
 
 ### Customising the environment
 
