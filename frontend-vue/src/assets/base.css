@@ -43,6 +43,66 @@
   }
 }
 
+/* Utility classes  */
+
+.text {
+  color: var(--clr-font);
+}
+
+.background-color {
+  background-color: var(--clr-background)
+}
+
+/* Important CTAs */
+.primary-color {
+  color: var(--clr-primary)
+}
+
+/* Not-so important CTAs */
+.secondary-color {
+  color: var(--clr-secondary)
+}
+
+.accent-color {
+  color: var(--clr-accent)
+}
+
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+
+.fw-semi-bold {
+  font-weight: var(--fw-semi-bold);
+}
+
+.fw-regular {
+  font-weight: var(--fw-regular);
+}
+
+.fs-primary-heading {
+  font-size: var(--fs-primary-heading);
+}
+
+.fs-secondary-heading {
+  font-size: var(--fs-secondary-heading);
+}
+
+.fs-300 {
+  font-size: var(--fs-300)
+}
+
+.fs-400 {
+  font-size: var(--fs-400)
+}
+
+.fs-500 {
+  font-size: var(--fs-500)
+}
+
+.fs-600 {
+  font-size: var(--fs-600)
+}
+
 
 /* ------ A More Modern CSS Reset ------ */
 /* https://andy-bell.co.uk/a-more-modern-css-reset/ */
@@ -125,42 +185,3 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
-
-
-/* Utility classes  */
-
-.text {
-  color: var(--clr-font);
-}
-.background {
-  background-color: var(--clr-background)
-}
-
-/* Important CTAs */
-.primary {
-  color: var(--clr-primary)
-}
-/* Not-so important CTAs */
-.secondary {
-  color: var(--clr-secondary)
-}
-
-.accent {
-  color: var(--clr-accent)
-}
-
-.fw-bold { font-weight: var(--fw-bold); }
-.fw-semi-bold { font-weight: var(--fw-semi-bold); }
-.fw-regular { font-weight: var(--fw-regular); }
-
-.fs-primary-heading {
-  font-size: var(--fs-primary-heading);
-}
-.fs-secondary-heading {
-  font-size: var(--fs-secondary-heading);
-}
-
-.fs-300 { font-size: var(--fs-300) }
-.fs-400 { font-size: var(--fs-400) }
-.fs-500 { font-size: var(--fs-500) }
-.fs-600 { font-size: var(--fs-600) }
