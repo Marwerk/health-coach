@@ -1,5 +1,7 @@
 <script setup>
 // import logo from '@/assets/images/logo.svg'
+// import heroPhoto from '@/assets/images/heroPhoto.svg'
+// import '@/assets/base.css'
 </script>
 
 <template>
@@ -8,7 +10,7 @@
     <div class="container">
       <a href="#">
         <!-- Use require to resolve the path to your image -->
-        <img :src="logo" alt="LogoPlaceholder" />
+        <!-- <img :src="logo" alt="LogoPlaceholder" /> -->
       </a>
       <nav class="primary-navigation">
         <ul aria-label="Primary" role="list" class="">
@@ -36,7 +38,7 @@
           <button class="button">Book a call</button>
         </div>
         <div>
-          <img :src="photoIntro" alt="Photo Intro" />
+          <!-- <img :src="heroPhoto" alt="Photo Intro" /> -->
         </div>
       </div>
     </div>
@@ -99,15 +101,15 @@
         <div>
           <a href="#">
             <!-- Use require to resolve the path to your image -->
-            <img :src="logo" alt="LogoPlaceholder" />
+            <!-- <img :src="logo" alt="LogoPlaceholder" /> -->
           </a>
           <!-- Social media icons list -->
           <!-- "aria-label" is for accesibility -->
           <ul role="list" aria-label="Social Media Links">
-            <li><a aria-label="Email" href="#"></a></li>
-            <li><a aria-label="Instagram" href="#"></a></li>
-            <li><a aria-label="Facebook" href="#"></a></li>
-            <li><a aria-label="LinkedIn" href="#"></a></li>
+            <li><a aria-label="Email" href="#">Email</a></li>
+            <li><a aria-label="Instagram" href="#">Instagram</a></li>
+            <li><a aria-label="Facebook" href="#">Facebook</a></li>
+            <li><a aria-label="LinkedIn" href="#">LinkedIn</a></li>
           </ul>
         </div>
         <div>
@@ -128,3 +130,5 @@
   </footer>
 </template>
 
+<style>
+</style>

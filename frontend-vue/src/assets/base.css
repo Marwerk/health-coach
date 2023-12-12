@@ -1,9 +1,11 @@
+/* Define CSS variables at the root level of the document to make them available globally */
+
 :root {
   --clr-font: #040316;
-  --clr-background: #ffefd1 (rgb(255, 239, 209) - hsl(39, 100%, 91%));
-  --clr-primary: #8e601f (rgb(142, 96, 31) - hsl(35, 64%, 34%));
-  --clr-secondary: #675a23 (rgb(103, 90, 35) - hsl(49, 49%, 27%));
-  --clr-accent: #f7e09d (rgb(247, 224, 157) - hsl(45, 85%, 79%));
+  --clr-background: #ffefd1;
+  --clr-primary: #8e601f;
+  --clr-secondary: #675a23;
+  --clr-accent: #f7e09d;
 
 
   /* Main Font Family used site-wide */
@@ -34,7 +36,7 @@
   --fs-button: var(--fs-300);
 }
 
-@media (mind-width: 50em) {
+@media (min-width: 50em) {
   :root {
     --fs-body: var(--fs-500);
     --fs-primary-heading: var(--fs-900);
@@ -101,87 +103,4 @@
 
 .fs-600 {
   font-size: var(--fs-600)
-}
-
-
-/* ------ A More Modern CSS Reset ------ */
-/* https://andy-bell.co.uk/a-more-modern-css-reset/ */
-
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Prevent font size inflation */
-html {
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
-}
-
-/* Remove default margin */
-* {
-  margin: 0;
-  padding: 0;
-  /* font inherit forces us to use the proper classes instead of using h3 for styling */
-  font: inherit;
-}
-
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
-  list-style: none;
-}
-html,
-body {
-  height: 100%;
-}
-/* Set core body defaults */
-body {
-  line-height: 1.5;
-}
-
-/* Set shorter line heights on headings and interactive elements */
-h1,
-h2,
-h3,
-h4,
-button,
-input,
-label {
-  line-height: 1.1;
-}
-
-/* Balance text wrapping on headings */
-h1,
-h2,
-h3,
-h4 {
-  text-wrap: balance;
-}
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-  color: currentColor;
-}
-
-/* Make images easier to work with */
-img,
-picture,
-svg {
-  max-width: 100%;
-  display: block;
-}
-
-/* Make sure textareas without a rows attribute are not tiny */
-textarea:not([rows]) {
-  min-height: 10em;
-}
-
-/* Anything that has been anchored to should have extra scroll margin */
-:target {
-  scroll-margin-block: 5ex;
 }
